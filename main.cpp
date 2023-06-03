@@ -13,6 +13,7 @@ int main()
 	Universe universe(&mainWindow);
 	UserInterface userInterface(&universe);
 
+	/*
 	for (int i = 0; i < 50; i++)
 	{
 		universe.spawnObject(false, mymath::Vector2(0, 0), 1);
@@ -20,6 +21,7 @@ int main()
 		universe.spawnObject(false, mymath::Vector2(0, 0.5), 1);
 		universe.spawnObject(false, mymath::Vector2(0.5, 0.5), 1);
 	}
+	*/
 
 	sf::Clock deltaClock;
 	while (mainWindow.isOpen())
